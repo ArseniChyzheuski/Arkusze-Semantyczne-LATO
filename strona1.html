@@ -1,0 +1,47 @@
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Strona 1</title>
+<style>
+    body {
+        text-align: center;
+    }
+    main { display: flex;
+        border: 2px solid black;    
+        height: 700px;
+        width: 100%;
+    }
+    header, footer { text-align:center;
+        border:2px solid black;
+        height: 120px;
+        width: 100%;
+        background-color: lightgreen;
+    }
+    .lewa { width:25%;
+        border:2px solid black;
+        width: 25%;
+        background-color: lightblue;
+    }
+    .center { width:50%;
+        border:2px solid black;
+        width: 50%;
+        background-color: lightcoral;
+    }
+    .prawa { width:25%;
+        border:2px solid black;
+        width: 25%;
+        background-color: lightseagreen;
+    }
+</style>
+</head>
+<body>
+    <header>Blok nagłowkowy</header>
+    <main>
+        <section class="lewa">Blok sekcji lewej</section>
+        <section class="center">Blok sekcji środkowej</section>
+        <section class="prawa">Blok sekcji prawej</section>
+    </main>
+    <footer>Blok stopki</footer>
+    <button onclick="location.href='index.html'">Powrót do menu</button>
+</body>
+</html>
