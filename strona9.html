@@ -1,0 +1,90 @@
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Strona 8</title>
+<style>
+body { 
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+}
+header, footer, nav, aside {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+header, footer {
+    width: 100%;
+}
+header, footer {
+    text-align: center;
+    margin-bottom: 5px;
+    height: 120px;
+}
+main { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+.calosc { 
+    display: flex; 
+    flex-direction: row; 
+    flex: 1;
+    justify-content: space-between;
+    margin: 15px;
+}
+.lewy { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 2; 
+    margin-right: 5px;
+}
+.dol { 
+    display: flex; 
+    flex-direction: row; 
+    flex: 1;
+    justify-content: space-between;
+}
+nav { 
+    margin-bottom: 5px; 
+    height: 100px;
+}
+.lewa, .srodkowa { 
+    flex: 1; 
+    height: 208px;
+    border: 1px solid black;
+}
+.lewa { 
+    margin-right: 5px;
+}
+aside { 
+    flex: 1; 
+    height: 315px;
+}
+footer { 
+    text-align: center; 
+}
+</style>
+</head>
+<body>
+   <header>Blok nagłówkowy</header>
+    <main>
+        <h1>Blok główny</h1>
+        <section class="calosc">
+            <section class="lewy">
+                <nav>Blok nawigacyjny</nav>
+                <section class="dol">
+                    <section class="lewa">Sekcja lewa</section>
+                    <section class="srodkowa">Sekcja środkowa</section>
+                </section>
+            </section>
+            <aside>Blok boczny</aside>
+        </section>
+    </main>
+    <footer>Blok stopki</footer>
+    <button onclick="location.href='index.html'">Powrót do menu</button>
+</body>
+</html>
