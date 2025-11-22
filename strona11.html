@@ -1,0 +1,65 @@
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Strona 11</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    main {
+        border: 1px solid black;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+    main > h2 {
+        margin: 10px 0 20px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+    aside {
+        display: inline-block;
+        width: 25%;
+        height: 200px;
+        border: 1px solid black;
+        vertical-align: top;
+        padding-top: 80px;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #prawa {
+        display: inline-block;
+        width: 60%;
+        height: 200px;
+        border: 1px solid black;
+    }
+    #jeden, #dwa {
+        border-bottom: 1px solid black;
+        height: 50%;
+        padding-top: 35px;
+    }
+    #dwa {
+        border-bottom: none;
+    }
+    footer {
+        border: 1px solid black;
+        padding: 15px;
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+    <main>
+        <h2>Blok główny</h2>
+        <aside id="lewa">Blok bloczny</aside>
+        <section id="prawa">
+            <section id="jeden">Sekcja 1</section>
+            <section id="dwa">Sekcja 2</section>
+        </section>
+    </main>
+    <footer>Blok stopki</footer>
+    <button onclick="location.href='index.html'">Powrót do menu</button>
+</body>
+</html>
